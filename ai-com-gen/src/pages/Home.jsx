@@ -30,7 +30,7 @@ const Home = () => {
     const [code, setCode] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const ai = new GoogleGenAI({ apiKey: "AIzaSyD6dSpwlOrU9Mv6AeFz2YTClDNWc89fbDQ" });
+    const ai = new GoogleGenAI({ apiKey: "/*API KEY MENTION HERE*/ " });
 
     function extractCode(response) {
         const match = response.match(/```(?:\w+)?\n?([\s\S]*?)```/);
